@@ -1,0 +1,90 @@
+        #main {
+            margin-left: 120px;
+        }
+
+        .w3-row-padding img {
+            margin-bottom: 12px;
+        }
+
+        .w3-sidebar {
+            width: 150px;
+            background: #222;
+        }
+
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Montserrat", sans-serif;
+        }
+
+        @media only screen and (max-width: 600px) {
+            #main {
+                margin-left: 0
+            }
+        }
+
+        /* Estilização para a seção de Docentes */
+        .docente-card {
+            display: flex;
+            align-items: center;
+            background-color: #333;
+            padding: 20px;
+            color: #fff;
+        }
+
+        .docente-card img {
+            width: 50px;
+            height: 50px;
+            margin-right: 20px;
+        }
+
+        .docente-card h4 {
+            margin: 0;
+            color: #00ffff;
+        }
+
+        .docente-card p {
+            margin: 5px 0 0;
+            color: #ccc;
+        }
+
+        .slideshow-container {
+            max-width: 500px;
+            border: 2px solid #00bcd4;
+            margin-left: 0px;
+            position: relative;
+        }
+
+        .slide img {
+            width: 100%;
+            height: auto;
+        }
+
+        .gallery-title {
+            font-size: 24px;
+            color: #00bcd4;
+            text-align: center;
+            margin-bottom: -10px;
+        }
+
+        .w3-cyan {
+            background-color: #00bcd4 !important;
+            color: #fff !important;
+        }
+
+        .slideshow-buttons {
+            text-align: center;
+        }
+
+        .slideshow-buttons button {
+            margin: 5px;
+        }
+
+        /* Rodapé */
+        footer a {
+            text-decoration: none;
+        }
